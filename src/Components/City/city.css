@@ -1,0 +1,20 @@
+.city {
+  margin-left: 30px;
+  color: #91a3ac;
+  font-size: x-large;
+}
+.loading{
+  width: 15%;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .city {
+    margin-left: 70vh;
+  }
+  .loading{
+    width: 15%;
+    height: auto;
+    margin-left: 100vh;
+  }
+
+}

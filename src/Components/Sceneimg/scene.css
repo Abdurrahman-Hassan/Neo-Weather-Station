@@ -1,0 +1,23 @@
+#centerImage {
+  margin-top: 11px;
+  margin-left: 11px;
+  height: 250px;
+  width: 250px;
+  }
+.mainImage{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #cbd4da, #f2fbff);
+  box-shadow: 25px 25px 50px #b5bcc2, -25px -25px 50px #ffffff;
+
+}
+@media only screen and (min-width: 768px) {
+
+  .mainImage{
+    margin-top: 10vh;
+    margin-left: 28vw;
+  }
+}

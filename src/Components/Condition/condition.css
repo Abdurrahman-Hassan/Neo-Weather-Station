@@ -1,0 +1,40 @@
+body {
+  color: #91a3ac;
+}
+.cloud {
+  margin-left: 0px;
+  margin-right: 0px;
+  position: absolute;
+  top: 400px;
+  left:77vw 
+}
+.humidity {
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  left: 15vw;
+}
+.wind {
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  left: 75vw;
+}
+@media only screen and (min-width: 768px) {
+  .cloud {
+    position: absolute;
+    top: 82vh;
+    left:45vw 
+  }
+  .humidity {
+    position: absolute;
+    top: 90vh;
+    left:38vw
+  }
+  .wind {
+    position: absolute;
+    top: 90vh;
+    left:55vw
+  }
+
+}

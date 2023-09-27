@@ -1,0 +1,36 @@
+.sports{
+    margin-top: 50px;
+    text-align: center;
+}
+.titleCri{
+    font-size: 30px;
+}
+.Cricket{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #cbd4da, #f2fbff);
+    box-shadow: 25px 25px 50px #b5bcc2, -25px -25px 50px #ffffff;
+  }
+
+
+
+.titleFoot{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.Football{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%;
+    border-radius: 35px;
+    background: linear-gradient(145deg, #cbd4da, #f2fbff);
+    box-shadow: 25px 25px 50px #b5bcc2, -25px -25px 50px #ffffff;
+  }
