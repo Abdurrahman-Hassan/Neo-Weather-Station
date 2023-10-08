@@ -6,8 +6,8 @@ import Condition from "../Condition/Condition";
 import Days from "../Days/Days";
 import Sports from "../Sports/Sports";
 import { useState } from "react";
-import "./main.css"
-import back from "../Assets/back.svg"
+import "./main.css";
+import back from "../Assets/back.svg";
 
 const Main = () => {
   const [value, setvalue] = useState("");
@@ -23,28 +23,47 @@ const Main = () => {
       {!weather && (
         <div className="form">
           <form>
-              <input
+            <input
               className="City"
               placeholder="Enter the City"
-                type="text"
-                value={value}
-                onChange={(e) => setvalue(e.target.value)}
-              />
+              type="text"
+              value={value}
+              onChange={(e) => setvalue(e.target.value)}
+            />
           </form>
-          <button className="next-btn" onClick={fetchcity}>Check</button>
+          <h5 className="credits">
+            Created by{" "}
+            <a
+              href="https://abdurrahmanhassan.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <code>Abdurrahman Hassan</code>
+            </a>
+          </h5>
+          <button className="next-btn" onClick={fetchcity}>
+            Check
+          </button>
         </div>
       )}
 
       {weather && (
         <div>
-          <button className="back-btn" onClick={()=>{setWeather(null)}}><img src={back}/></button>
-          <City city={weather}/>
+          <button
+            className="back-btn"
+            onClick={() => {
+              setWeather(null);
+            }}
+          >
+            <img src={back} />
+          </button>
+          <City city={weather} />
           <Time city={weather} />
-          <Sceneimg city={weather}/>
-          <Temperature city={weather}/>
-          <Condition city={weather}/>
-          <Days city={weather}/>
-          <Sports city={weather}/>
+          <Sceneimg city={weather} />
+          <Temperature city={weather} />
+          <Condition city={weather} />
+          <Days city={weather} />
+          <Sports city={weather} />
         </div>
       )}
     </div>
